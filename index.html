@@ -3,427 +3,114 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Durga Moorthy</title>
+    <meta name="description" content="Durga Moorthy's biomedical engineering portfolio: robotics, wearable sensing, and clinical research." />
+    <title>Durga Moorthy | Biomedical Engineering</title>
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/media.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
-      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
 
   <body>
-    <div id="preloader">
-      <div class="jumping-dots">
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-    </div>
+    <div id="preloader" aria-hidden="true"><div class="jumping-dots"><div></div><div></div><div></div></div></div>
 
     <header id="header" class="header">
       <div class="container container-lg">
         <div class="header-nav">
-          <a href="#home" class="logo">D<span>.</span>Moorthy</a>
-          <nav id="nav" class="nav">
+          <a href="#home" class="logo" aria-label="Durga Moorthy home">D<span>.</span>Moorthy</a>
+          <nav id="nav" class="nav" aria-label="Primary navigation">
             <ul class="nav-list">
-              <li class="nav-item">
-                <a href="#home" class="nav-link active">Home</a>
-              </li>
-              <li class="nav-item">
-                <a href="#about" class="nav-link">About</a>
-              </li>
-              <li class="nav-item">
-                <a href="#projects" class="nav-link">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a href="#contact" class="nav-link">Contact</a>
-              </li>
+              <li><a href="#home" class="nav-link active">Home</a></li>
+              <li><a href="#about" class="nav-link">About</a></li>
+              <li><a href="#projects" class="nav-link">Projects</a></li>
+              <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
-            <button id="nav-btn" class="nav-btn">
-              <img
-                id="nav-btn-img"
-                src="img/icons/open.svg"
-                alt="Navigation button"
-              />
-            </button>
+            <button id="nav-btn" class="nav-btn" aria-label="Open navigation"><img id="nav-btn-img" src="img/icons/open.svg" alt="" /></button>
           </nav>
         </div>
       </div>
     </header>
 
-    <section id="home" class="hero">
-      <div class="container container-lg">
-        <div
-          class="hero-row"
-          data-aos="fade-zoom-in"
-          data-aos-easing="ease-in-out"
-          data-aos-delay="1800"
-          data-aos-duration="2000"
-        >
-          <div class="hero-content">
-            <span class="hero-greeting"> Hello, I am</span>
-            <h1 class="hero-heading">Durga Moorthy</h1>
-            <span class="hero-heading-subtitle"
-              >Biomedical Engineering at Vanderbilt University</span
-            >
-            <pre>     </pre>
+    <main>
+      <section id="home" class="hero">
+        <div class="container container-lg">
+          <div class="hero-row" data-aos="fade-zoom-in" data-aos-duration="1200">
+            <div class="hero-content">
+              <span class="eyebrow">BME + Physics major · Digital Fabrication minor</span>
+              <h1 class="hero-heading">Durga Moorthy</h1>
+              <p class="hero-heading-subtitle">Engineering student excited about the intersection of physical AI and health systems.</p>
+              <p class="hero-intro">My experience in ML for health includes robotic teleoperation, wearable sensing, machine-learning anomaly detection, and surgical eye-tracking research through the MAPLE Lab at Vanderbilt’s Institute for Surgery and Engineering.</p>
+              <div class="hero-actions"><a href="#projects" class="btn">Explore projects</a><a href="#contact" class="btn btn-white">Get in touch</a></div>
+            </div>
+            <figure class="hero-img"><img src="img/projects/aua-photo.jpg" alt="Durga Moorthy standing next to her AUA 2026 poster" /><figcaption>Sharing the work in Washington, DC.</figcaption></figure>
+          </div>
+        </div>
+      </section>
 
+      <section id="about" class="about section-shell">
+        <div class="container">
+          <div class="section-heading" data-aos="fade-up"><span class="eyebrow">A little context</span><h2 class="title">About me</h2></div>
+          <div class="about-copy" data-aos="fade-up" data-aos-delay="100">
+            <p>I am a Vanderbilt student majoring in Biomedical Engineering and Physics, with a minor in Digital Fabrication. Through the MAPLE Lab at the Vanderbilt Institute for Surgery and Engineering, I have worked on perception, machine learning, robotics, and surgical technology.</p>
+            <p>I have completed projects in electromechanical prototyping, wearable sensing, robotic manipulation, and surgical eye-tracking analysis. My work has included building, testing, and documenting hardware and software systems from early prototype through demonstration.</p>
+          </div>
+        </div>
+      </section>
 
+      <section id="projects" class="projects section-shell">
+        <div class="container container-lg">
+          <div class="section-heading section-heading-center" data-aos="fade-up"><span class="eyebrow">Selected work</span><h2 class="title">Projects</h2><p class="section-lede">A few examples of hardware, software, and research brought together in one portfolio.</p></div>
 
-            <div>
-              <a href="#projects" class="btn">My Projects</a>
-              <a href="#contact" class="btn btn-white">Contact Me</a>
+          <article class="project-feature" data-aos="fade-up">
+            <div class="project-feature-media"><video controls preload="metadata" poster="img/projects/hand-teleop-poster.jpg" aria-label="BrainCo hand teleoperation demonstration"><source src="img/projects/hand-teleop.mp4" type="video/mp4" />Your browser does not support embedded video.</video></div>
+            <div class="project-feature-copy">
+              <p class="project-kicker">01 · Robotics &amp; human-machine interaction</p><h3>BrainCo Hand Teleoperation</h3>
+              <p class="project-summary">A 20-DoF teleoperation system built by integrating a white-labeled sensor glove with a BrainCo hand.</p>
+              <p>I white-labeled and integrated the sensor glove with a BrainCo hand, then connected the system to our custom OS and ROS 2 stack. I am currently extending the integration to the Piper AgileX arm, pictured in the demo, and scaling the workflow to Wuji hands and Franka arms (not pictured) using the Wuji SDK and retargeting algorithms.</p>
+              <div class="tag-list" aria-label="Project technologies"><span>20 DoF</span><span>ROS 2</span><span>Sensor glove</span><span>Custom OS</span></div>
+            </div>
+          </article>
+
+          <article class="project-card aua-project" data-aos="fade-up">
+            <div class="project-card-copy"><p class="project-kicker">02 · Clinical research presentation</p><h3>AUA 2026 · Optical Tracking Metrics</h3>
+              <p>I presented our work on optical tracking metrics and surgical time during flexible ureteroscopy for kidney stone treatment at the American Urological Association (AUA) 2026 meeting in Washington, DC.</p>
+              <p>The study connects gaze behavior, including area of interest, gaze distance traveled, and fixation count, with operative duration. My contribution included processing and interpreting gaze data to examine how visual attention relates to surgical performance.</p>
+              <div class="tag-list"><span>Eye tracking</span><span>Clinical research</span><span>AUA 2026</span></div>
+            </div>
+            <div class="aua-gallery"><figure><img src="img/projects/aua-poster.png" alt="AUA 2026 research poster about optical tracking metrics" /><figcaption>Research poster presented at AUA 2026.</figcaption></figure></div>
+          </article>
+
+          <article class="project-card driver-project" data-aos="fade-up">
+            <div class="driver-media"><img src="img/projects/driver-readiness.png" alt="Driver Readiness wearable sensing project" /></div>
+            <div class="project-card-copy"><p class="project-kicker">03 · Wearable sensing &amp; connected systems</p><h3>Driver Readiness</h3>
+              <p>A completed anomaly-detection project focused on identifying drowsiness from public datasets.</p>
+              <p>I trained an ML model for anomaly detection to detect drowsiness from public datasets. I also built the supporting prototype around an ESP32-WROOM-DA module, MAXIO heart-rate / HRV sensing, and a skin-humidity sensor, with an Arduino programming interface, BLE connection, and cloud UI.</p>
+              <div class="tag-list"><span>ESP32-WROOM-DA</span><span>MAXIO HR / HRV</span><span>Skin humidity</span><span>BLE + cloud UI</span></div>
+            </div>
+          </article>
+
+          <div class="legacy-projects" data-aos="fade-up">
+            <div class="legacy-heading"><h3>More projects</h3></div>
+            <div class="legacy-grid">
+              <article class="legacy-card legacy-card-wide"><img src="img/services/syringepump.JPG" alt="3D printed syringe pump" /><div><p class="project-kicker">Rapid prototyping</p><h4>3D Printed Syringe Pump</h4><p>Designed and fabricated a cost-efficient syringe pump with a NEMA 17 stepper motor, A4988 driver, Arduino control, limit sensing, and parametric syringe sizing.</p></div></article>
+              <article class="legacy-card"><img src="img/services/01.webp" alt="FRC compliant wheel indexing system" /><p class="project-kicker">FRC Rapid React</p><h4>Compliant Wheel Indexing</h4><p>Built an intake and indexing system around constrained space, deployability, and gentle game-piece handling.</p></article>
+              <article class="legacy-card"><img src="img/services/2022intake.png" alt="Vectored wheel intake prototype" /><p class="project-kicker">FRC Rapid React</p><h4>Vectored Wheel Intake</h4><p>Prototyped vectored and compliant wheel geometries while balancing grip, flexibility, and durability.</p></article>
+              <article class="legacy-card"><img src="img/services/cubeintake.png" alt="Dual purpose cube and cone intake" /><p class="project-kicker">FRC Charged Up</p><h4>Dual-Purpose Intake Prototyping</h4><p>Iterated quickly with 3D-printed parts and shop materials to create a non-destructive cube and cone intake.</p></article>
+              <article class="legacy-card"><img src="img/services/2022robot.jpeg" alt="FRC robot with custom mechanism" /><p class="project-kicker">Mechanical design</p><h4>In-House Linear Actuator</h4><p>Replicated a vendor telescoping actuator in-house, integrated custom hooks, and removed more than 10 pounds from the original pneumatic design.</p></article>
+              <article class="legacy-card"><img src="img/services/rotaryjoint.png" alt="3D printed rotary joint" /><p class="project-kicker">Personal project</p><h4>Robotic Rotary Joint</h4><p>Designed a 3D-printable 30:1 rotary joint with heat-set inserts, a hollow center, and a belt-and-pulley transmission.</p></article>
+              <article class="legacy-card"><img src="img/services/game.png" alt="Women's history puzzle game" /><p class="project-kicker">Hackathon</p><h4>Women’s History Puzzle Game</h4><p>Created a Java puzzle game inspired by Wordle and hosted it on a custom HTML and CSS webpage; winner of the Best All-Girls Hack Award.</p></article>
+              <article class="legacy-card"><img src="img/services/ring.png" alt="Wearable drink safety ring prototype" /><p class="project-kicker">Biomedical design</p><h4>Drink Safety Ring</h4><p>Prototyped an Arduino-compatible wearable that used a TDS sensor and LED alert to detect changes in a drink.</p></article>
+              <article class="legacy-card legacy-card-wide"><div class="legacy-image-pair"><img src="img/services/cone.png" alt="3D printed cone intake" /><img src="img/services/conetest.png" alt="Cone intake testing" /></div><div><p class="project-kicker">FRC Charged Up</p><h4>Rapid Intake Iteration</h4><p>Tested friction, material choice, and geometry to refine 3D-printed cone grabbers and improve slide-on intake performance.</p></div></article>
             </div>
           </div>
-          <div class="hero-img">
-            <img
-              src="img/BgRemovedSnrPic.png"
-              alt="SnrPortrait</a>
-              "
-            />
-          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
 
-    <section id="about" class="about">
-      <div class="container">
-        <div class="about-title">
-          <h2 class="title">About Me</h2>
-        </div>
-        <div class="about-row">
-          <div class="about-content">
-            <p class="about-descr">
-              I am a Biomedical Engineering student at Vanderbilt University with a strong interdisciplinary background in medical imaging, robotics, and data-driven engineering. My passion lies in medtech and assistive technologies, where I aim to merge innovative design with real-world clinical application.
+    <section id="contact" class="contact section-shell"><div class="container"><div class="section-heading section-heading-center"><span class="eyebrow">Contact</span><h2 class="title">Contact</h2><p class="section-lede">I’d love to learn more about internships and co-op opportunities at the intersection of medical devices and robotics!</p></div><div class="social-links-row footer-social"><a href="https://www.linkedin.com/in/durga-moorthy-82a44b263/" aria-label="LinkedIn"><img src="img/social_icons/linkedin.svg" alt="" /></a><a href="mailto:durga.s.moorthy@vanderbilt.edu" aria-label="Email"><img src="img/social_icons/gmail.png" alt="" /></a></div></div></section>
+    <footer class="footer"><div class="container"><p>Durga Moorthy · Vanderbilt Engineering</p></div></footer>
+    <div id="goToTop" class="goToTop"><a href="#home"><img src="img/icons/arrow_up.svg" alt="Back to top" /></a></div>
 
-              I am involved in research at the Vanderbilt Institute for Surgery and Engineering (VISE) through the MAPLE Lab (Machine Automation, Perception, and Learning), where I work at the intersection of machine learning, perception, and surgical innovation. Beyond academics, I serve on the executive board of the Society of Women Engineers and work as a Resident Advisor on campus.
-
-              I am currently seeking internships and research opportunities to continue developing my skills in medical technology, data analysis, and device design.
-
-            </p>
-            
-          </div>
-          
-        </div>
-
-        <div class="services-row">
-         
-
-          <div class="service-card" data-aos="fade-down">
-            <img class="service-card-img" src="img/services/poster.jpg" alt="" 
-            style="width: 150%; height: auto; max-width: 450px; filter: invert(0);" />
-            <h3 class="service-card-title">Summer Research at the Vanderbilt Institute for Surgery and Engineering (VISE)</h3>
-            <br>
-            <p style="text-indent: 20px;">
-              
-              Over the summer, I worked on an eye-tracking study analyzing expert and novice visual behavior during augmented reality–guided kidney procedures. My work focused on processing and classifying gaze data to understand attention patterns, task performance, and the effect of AR guidance. I presented this research at multiple poster sessions including the VINSE (Vanderbilt Institute of Nanoscale Science and Engineering) poster session highlighting my preliminary findings on fixation clustering, guidance effects, and expertise differentiation.
-            </p>
-          </div>
-
-          <div class="service-card" data-aos="fade-down">
-            <img class="service-card-img" src="img/services/2024.jpg" alt="" 
-            style="width: 80%; height: auto; max-width: 450px; filter: invert(0);" />
-            <h3 class="service-card-title">Biomedical Design Lab</h3>
-            <p style="text-indent: 20px;">
-        
-        As part of a student-run-design laboratory using iXTA EMG equipment, my team of 4 designed and conducted an independent experiment to analyze calf muscle activity during flexion. I performed data collection, signal processing, and statistical analysis to study muscle activation patterns and fatigue behavior. I also completed literature reviews, contributed to our research presentation writing, and presented our findings to peers, connecting the results to broader applications of EMG in prosthetics, rehabilitation, and human performance analysis.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-   <section id="projects" class="projects">
-  <div class="container container-lg">
-    <div class="projects-title">
-      <pre>
-        
-      </pre>
-      <h2 class="title">Projects</h2>
-      <pre>
-        
-      </pre>
-      <span class="hero-heading-subtitle">Rapid Prototyping</span>
-    </div>
-
-    <div class="projects-row">
-      <!-- Interactive Block 1 -->
-      <div class="project-box">
-        <a href="#!">
-          <img class="project-img" src="img/services/syringepump.JPG" alt="" style="border-radius: 5px;"/>
-          <div class="project-mask">
-            <div class="project-caption">
-              <h5 class="white">3D Printed Syringe Pump</h5>
-              <p class="white">Digital Fabrication</p>
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <!-- Still Text Block 2 with Images -->
-      <div class="project-box">
-        <div class="project-text-block" style="margin: 10px; padding: 10px; ">
-          <div class="static-images">
-            
-            <img src="img/services/testpump.jpg" alt="Static Img 2" style="width: 100%; height: auto;" />
-            
-
-          </div>
-           <p style="text-indent: 12px; font-size: 13px; line-height: 1.6; text-align: justify;">
-            In this project, my team of three designed and fabricated a cost-efficient syringe pump within a 4-week timeline as an affordable alternative to commercial models that typically cost several hundred dollars. We developed custom CAD models in Fusion 360 optimized for lightweight PLA construction and cost-effective ABS components where heat resistance was required. Using an Arduino, we programmed control of a NEMA 17 stepper motor via an A4988 (microstepping) driver using the AccelStepper library, converting user-specified flow rates into precise stepper commands while managing timing constraints to maintain accuracy. The electrical system included custom wire harnesses with proper terminations connecting a latching push button for operation control, a limit switch for end-of-stroke detection, and an RGB LED for status indication, all powered by a Mean Well quad-output power supply and protected within a custom enclosure. The design achieved compatibility with multiple syringe sizes through parametric calculations that accounted for syringe diameter and lead screw pitch, ultimately delivering accurate volumetric flow rates during testing.
-            <br>  
-            </P>                                 
-
-
-
-          </p>
-        </div>
-      </div>
-
-      </div> <!-- closes the rapid prototyping project-row -->
-
-    <!-- Subheader for FRC Robotics -->
-    <div class="projects-subtitle" style="text-align: center; margin-top: 60px;">
-      <span class="hero-heading-subtitle">FRC Robotics</span>
-    </div>
-
-    <div class="projects-row">
-      <!-- Interactive Block 1 -->
-      <div class="project-box">
-        <a href="#!">
-          <img class="project-img" src="img/services/01.webp" alt="" style="border-radius: 5px;"/>
-          <div class="project-mask">
-            <div class="project-caption">
-              <h5 class="white">Compliant Wheel Indexing</h5>
-              <p class="white">FRC Rapid React</p>
-              <br>
-            </div>
-            <br>
-          </div>
-        </a>
-      </div>
-
-      <!-- Still Text Block 2 with Images -->
-      <div class="project-box">
-        <div class="project-text-block" style="margin: 10px; padding: 10px; ">
-          <div class="static-images">
-            
-            <img src="img/services/2022robot.jpeg" alt="Static Img 2" style="width: 50%; height: auto;" />
-            <img src="img/services/indexing.png" alt="Static Image 1" style="width: 50%; height: auto;" />
-
-          </div>
-           <p style="text-indent: 12px; font-size: 13px; line-height: 1.6; text-align: justify;">
-            Created a vectored, deployable intake and indexing system with limited space and multi-part stowing capabilities. Experimented with various materials such as 2-in compliant wheels (green wheels), mecanum vectored intake wheels, and gas shocks. Throughout the prototyping process, I worked around various design constraints, such as the intake being unable to handle head-on impact at high speeds, and the stowing system being vulnerable to side impact when deployed.
-            <br>  
-            <br>                                  
-
-            The intake was required to manipulate game pieces in a non-destructive way, but it also needed to lift pieces over the exterior bumper to transfer into the indexing system.
-
-
-
-          </p>
-        </div>
-      </div>
-
-      <!-- Still Text Block 3 with Images -->
-    <div class="project-box">
-      <div class="project-text-block" style="margin: 5px; display: flex; align-items: center;">
-        <!-- Image Block -->
-        <div style="flex-shrink: 0;">
-        <img 
-          src="img/works/03.png" 
-          alt="Added Image" 
-          style="margin-top: 5px; margin-bottom: 5px; width: auto; height: 225px; border-radius: 5px;" 
-        />
-      </div>
-
-        
-        <!-- Text Block -->
-        <div style="margin-left: 18px; padding: 5px;">
-           <p style="text-indent: 12px; font-size: 13px; line-height: 1.6; text-align: justify;">
-            Replicated a vendor's telescoping linear actuating system to fabricate in house at a fraction of the cost (pictured left). 
-
-            Integrated custom hooks for game application and cut >10 lbs of weight from original pneumatic design.
-
-            </p>
-            <br>
-
-
-
-
-            <p style="text-indent: 12px; font-size: 13px; line-height: 1.6; text-align: justify;">
-
-            When creating the intake pictured below, I experimented with game piece compression using different shaped compliant wheels (larger red 4 inch, cut edges) for better contant with square game pieces. I also tested numerous materials to find an acceptable trade off between flexibility, grip, and durability.
-
-
-          </p>
-        </div>
-      </div>
-    </div>
-
-
-
-
-
-      <!-- Interactive Block 4 -->
-      <div class="project-box">
-        <a href="#!">
-          <img class="project-img" src="img/services/2022intake.png" alt="" style="border-radius: 10px;"/>
-          <div class="project-mask">
-            <div class="project-caption">
-              <h5 class="white">Vectored Wheel Intake</h5>
-              <p class="white">FRC Rapid React</p>
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <!-- Interactive Block 5 -->
-      <div class="project-box">
-        <a href="#!">
-          <img class="project-img" src="img/services/cubeintake.png" alt="" style="border-radius: 10px;"/>
-          <div class="project-mask">
-            <div class="project-caption">
-              <h5 class="white">Dual Purpose Intake Prototyping</h5>
-              <p class="white">FRC Charged Up</p>
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <!-- Still Text Block 6 with Images -->
-      <div class="project-box">
-        <div class="project-text-block" style="margin: 10px; padding: 10px; ">
-          <div class="static-images">
-            <img src="img/services/cone.png" alt="Static Image 5" style="width: 45%; height:auto;"/>
-            <img src="img/services/conetest.png" alt="Static Image 6" style="width: 55%; height:auto;"/>
-          </div>
-           <p style="text-indent: 12px; font-size: 13px; line-height: 1.6; text-align: justify;">
-            Throughout the cube and cone intake design process, I designed rough prototypes using existing lab materials quickly and cheaply. Pictured above is the initial 3D printed cone intake. Based on testing observations, the components were modified and re-tested. For example, the cone intake grabbers were too grippy, making the slide-on intake difficult. To alter the 3D printed parts, I used acetone to smooth down the exterior of the rounded ball end, which significantly decreased friction between the intake and the rubberized material of the cones, improving its functionality. 
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-
- <section id="about" class="about">
-      <div class="container">
-        <div class="about-title">
-          <h2 class="title" style="font-size: 20px;">Personal Projects</h2>
-        </div>
-       
-
-        <div class="services-row">
-          <div class="service-card" data-aos="fade-down">
-            <img class="service-card-img" src="img/services/rotaryjoint.png" alt=""
-             style="width: 80%; height: auto; max-width: 450px; filter: invert(0);" />
-            <h3 class="service-card-title">Rotary Joint</h3>
-            <br>
-            <p style="text-indent: 20px;">
-              As a summer project I designed a 3D-printable rotary joint with a 30:1 gear ratio. I utilized heat set inserts for easy mounting, and a belt and pulley system to allow the center of the joint to be hollow and enable dual ended attatchment for robotic arm applications. I tested the strength of the PLA body (polylactic acid, a standard thermoplastic material used in 3D printing) by conducting stress analysis and experimenting with boning along the underside of the body in weaker areas. I ended with a light, cheap and easily customizable design for a robotic rotary joint.
-            </p>
-          </div>
-
-          <div class="service-card" data-aos="fade-down">
-            <img class="service-card-img" src="img/services/game.png" alt="" 
-            style="width: 80%; height: auto; max-width: 450px; filter: invert(0);" />
-            <h3 class="service-card-title">Hackathons</h3>
-            <br>
-            <p style="text-indent: 20px; margin: 5px; padding: 10px;">
-              Created a women's history themed puzzle game inspired by the daily Wordle using Java, and designed a simple webpage around it using HTML and CSS to host the game. This project won the "Best All-Girls Hack Award" in the 2022 Lancer Hackathon. I have other experience in web design including creating the Lancer Robotics wesite using Webflow, the TEDx website using Squarespace and this portfolio using github pages.
-          </div>
-
-          <div class="service-card" data-aos="fade-down">
-            <img class="service-card-img" src="img/services/ring.png" alt="" 
-            style="width: 50%; height: auto; max-width: 450px; filter: invert(0);" />
-            <h3 class="service-card-title">Biomedical</h3>
-            <p style="text-indent: 20px;">
-              Worked with a team of biomedical engineering peers to address the problem of college students getting roofied (being unknowingly drugged via drink tampering). We created a wearable device using an Arduino compatible TDS (total desolved soilds sensor to create a ring that lit up when a roofie was detected in any observed drink. We used the SparkFun RedBoard and Arduino to test our ring prototype in a 3-week design module, and ended with a functional ring that accurately detected a change in TDS by lighting up an attached LED on the ring to alert the user of a dissolved substance.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-<div class="container container-lg">
-    
-     
-
-
-
-
-
-
-       
-
-    <section id="contact" class="contact">
-      <div class="container">
-        <div class="contact-title">
-          <h4 class="title">Contact</h4>
-        </div>
-        <div class="contact-content">
-          <div class="social-links-row footer-social">
-          
-
-            <a href="https://www.linkedin.com/in/durga-moorthy-82a44b263/">
-              <img
-                src="img/social_icons/linkedin.svg"
-                alt="Link to linkedin profile"
-                style="height: 24px; margin-right: 10px;"
-              />
-            </a>
-
-            <a href="mailto:durga.s.moorthy@vanderbilt.edu">
-              <img
-                src="img/social_icons/gmail.png"
-                alt="Link to gmail"
-                style="height: 24px;"
-              />
-            </a>
-
-          </div>
-          
-        </div>
-
-
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-row">
-           
-
-          
-
-  
-             
-
-          <div class="footer-copyright">
-            <p class="white">Durga Moorthy - Vanderbilt Engineering
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <div id="goToTop" class="goToTop">
-      <a href="#home">
-        <img src="img/icons/arrow_up.svg" alt="Back to top"
-      /></a>
-    </div>
-
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
-      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="js/main.js"></script>
   </body>
 </html>
